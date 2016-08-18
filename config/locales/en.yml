@@ -21,3 +21,9 @@
 
 en:
   hello: "Hello world"
+
+en:
+  unauthorized:
+    create:
+      article: "응 어드민 아니야"
+

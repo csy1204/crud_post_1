@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  root 'home#index'
   get 'home/index'
   post '/home/write' => 'home#write'
   get 'destroy/:id' => 'home#destroy'
